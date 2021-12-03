@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avalanche Options</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Avalanche Options</h1>
+    <div id='not-connected'>
+        <button id='mm-connect'>Connect</button>
+    </div>
+    <div id='connected'>
+        <h2>AVAX 100C 2/28/2022</h2>
+        <p id='avax-locked'></p>
+        <p id='contracts-owned'></p>
+        <div id='mint-contract'>
+            <input type="number" id="mint-amount">
+            <br>
+            <button id="mint-button">Mint</button>
+            <p id='mint-status'></p>
+        </div>
+    </div>
+
+
+    <script src="dapp.js"></script>
+</body>
+</html>

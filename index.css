@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+#connected {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+#not-connected {
+    text-align: center;
+}
+#mint-contract {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    margin-bottom: 1em;
+    width: 20%;
+    padding: 1em;
+}
+#mint-amount {
+    width: 100%;
+}
+#mint-button {
+    width: 50%;
+    margin-top: .7em;
+}
